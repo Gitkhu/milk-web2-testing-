@@ -119,21 +119,40 @@ p {
   margin: 0.6rem;
 }
 @media (max-width:980px) {
-  .web-img{
-    width: 4.3rem;
-  }
-  p{
-    font-size:2rem;
+    p {
+    font-size: 2rem;
     line-height: 2;
   }
-  .nav-item{
+  .big-heading,.mid-heading{
+    font-size: 3.5rem;
+  }
+  /* TESTIMONIALS SECTION */
+  .web-img {
+    width: 4.7rem;
+  }
+/* NAVBAR SECTION */
+  .nav-item {
     font-size: 1.75rem;
   }
-  #footer .web-img{
+  .nav-cow{
     width: 8rem;
   }
-  .d-flex button{
-    width: 110px;
-    height: 80px;
+  .nav-img{
+    width: 2.8rem;
+  }
+  .d-flex button {
+    width: 6.8rem;
+    height: 5rem;
+  }
+  /* DOWNLOAD SECTION */
+  .logoD{
+    width: 2.5rem;
+  }
+  .down-sec-b{
+  font-size: 1.75rem;
+  }
+/* FOOTER SECTION */
+  #footer .web-img {
+    width: 8rem;
   }
 }
