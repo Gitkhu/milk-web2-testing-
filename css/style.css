@@ -120,14 +120,14 @@ p {
 }
 @media (max-width:980px) {
   h5,h4{
-    font-size: 3.2rem;
+    font-size: 2.5rem;
   }
     p {
     font-size: 2rem;
     line-height: 1;
   }
   h6{
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .big-heading,.mid-heading{
     font-size: 3.5rem;
