@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Khusi's 2nd web(milk-web)</title>
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- BOOTSTRAP JAVA SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- FONTAWSEOME CDN -->
+  <script src="https://kit.fontawesome.com/167c0e26dc.js" crossorigin="anonymous"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif&display=swap" rel="stylesheet">
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <section id="navbar">
+
+    <nav class="navbar  navbar-light  navbar-expand-lg" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <img class="nav-cow" src="image/cow.logo.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#milk-items">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Quality</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#download"> <img class="nav-img" src="image/apple.png" alt=""> Apple</a></li>
+                <li><a class="dropdown-item" href="#download"> <img class="nav-img" src="image/android.png" alt=""> Android</a> </li>
+
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search for dairy items" aria-label="Search">
+            <button class="btn btn-outline-info" type="submit">Search </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </section>
+
+  <section id="title">
+
+    <div class="container-fluid">
+      <div class="row row-cols-1">
+        <div class="col ">
+          <h2 class="mid-heading">Welcom to MOTHER DAIRY</h2>
+        </div>
+
+      </div>
+    </div>
+    <div class="img">
+      <img class="img-fluid" src="image/logo-2.jpg" alt="">
+    </div>
+
+  </section>
+
+  <section id="milk-items">
+
+    <h1 class="big-heading">PRODUCTS</h1>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/milk.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/cheese.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/butter.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="image/yogurt.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="testimonials">
+
+    <h1 class="big-heading">QUALITY</h1>
+    <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2  g-4">
+      <div class="col">
+        <div class="card text-dark bg-info mb-3">
+          <img class="web-img" src="image/nontoxic.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">N0 PRESERVATIVE</h5>
+            <p class="card-text">100% pure milk Without any preservative or chemicals.Our consumer's good health is our aim. </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-dark bg-info mb-3">
+          <img class="web-img" src="image/environment.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">ENVIRONMENT FRIENDLY</h5>
+            <p class="card-text">We don't use plastic or anything that can affect badly to the mother nature </p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-12 col-lg-4">
+        <div class="card text-dark bg-info mb-3">
+          <img class="web-img" src="image/clean.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">HYGIENE</h5>
+            <p class="card-text">Products goes from our 10 step hygiene process.Which removes micro particles,bacterias and other harmful things.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-12 col-md-12">
+        <div class="card text-white bg-danger mb-3">
+          <img class="web-img" src="image/search.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">QUALITY CHECK</h4>
+            <p class="card-text">Our quality checking professionals check dairy products in every 24 hours. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="download">
+    <h1 class="big-heading">SERVICES</h1>
+    <div class="buttons">
+      <img class="srv-img" src="image/exclamation.png" alt="">
+      <p>Download the app for a better support </p>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <a class="btn  btn-outline-dark" href="/application/apple.html" role="button"><i class=" fa-brands fa-apple"></i> Download</a>
+        <a class="btn  btn-outline-success" href="/application/android.html" role="button"><i class="fa-brands fa-android"></i> Download</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="Fdev-info">    
+    <h6 class="footer-text">Developed by</h6>
+    <img class="web-img" src="image/khusi.png" alt="">
+    <h6 class="footer-text">KHUSI</h6>
+    </div>
+    <div class="row row-cols-2">
+      <div class="col">
+        <div class="footer-text colmun-1">
+          <p>Deeveloped year 2022</p>
+          <p>Developer isn't active in <i class="fa-brands fa-facebook"></i></p>
+          <p> Developer isn't active in <i class="fa-brands fa-instagram"></i></p>
+          <p>Developer isn't active in <i class="fa-brands fa-twitter"></i></p>
+        </div>
+
+      </div>
+      <div class="col ">
+    <img class="web-img"src="image/cow.png" alt="">
+    <h6>Respect animals</h6>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>

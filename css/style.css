@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+.big-heading {
+  font-family: 'Noto Serif', serif;
+  background-color: #e3f2fd;
+  color: #90E0EF;
+  padding: 0.3rem;
+  margin: 2.5rem;
+}
+
+.mid-heading {
+  color: #90E0EF;
+}
+
+/* NAVBAR SECTION */
+#navbar {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.nav-img {
+  width: 1.5rem;
+  margin: 0 auto 0 auto;
+}
+
+.nav-item {
+  padding: 3px;
+}
+
+.search-bar {
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.nav-cow {
+  width: 6.25rem;
+}
+
+/* TITLE SECTION */
+#title {}
+
+#title .row {
+  text-align: center;
+  background-color: #e3f2fd;
+  margin:3.1rem;
+}
+
+#title .col {}
+
+/* MILK-ITEMS SECTION */
+#milk-items {
+  margin: 2px 0 2px 0;
+  padding: 0.8rem;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials .row {
+  padding: 1.25rem;
+  background-color: #e3f2fd;
+  margin: 3.1rem 0 2.5rem 0;
+}
+
+.card {
+  padding: 0.6rem;
+}
+
+.web-img {
+  width: 3.1rem;
+  margin: 0 auto 0 auto;
+}
+
+/* DOWNLOAD SETION */
+.buttons {
+  padding: 1.8rem;
+  background-color: #e3f2fd;
+}
+
+/* SERVICES SECTION */
+.srv-img {
+  width: 1.8rem;
+  margin: 0 auto 0 auto;
+}
+/* FOOTER SECTION */
+#footer{
+  background-color:black ;
+}
+.footer-text{
+  font-size: 0.6rem;
+  color: white;
+}
+#footer p{
+  color: white;
+}
+.Fdev-info{
+  padding: 0.6rem;
+}
+
+
+/* SECOND PAGE CSS (APPLICATION PAGE) */
+.message{
+  font-family: 'Nanum Myeongjo', serif;
+  padding: 2rem;
+}
+.text {
+  color: #FF8C32;
+}
+
+.message-img {
+  width: 22rem;
+}
+
+.act-khusi-img {
+  width: 13rem;
+  margin: 0.6rem;
+}
+@media (max-width:980px) {
+  .web-img{
+    width: 4.3rem;
+  }
+  p{
+    font-size:1.2rem;
+    line-height: 2;
+  }
+  .nav-item{
+    font-size: 1.5rem;
+  }
+  #footer .web-img{
+    width: 8rem;
+  }
+
+}
